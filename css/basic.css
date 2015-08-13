@@ -1,0 +1,3 @@
+body { overflow-y:scroll; overflow-x:hidden; color:#202021; font-size:12px; font-family:Arial, sans-serif, '돋움', Dotum;}
+a:link, a:visited { color:#202021; text-decoration:none;}
+a:hover, a:focus { color:#cf0000; text-decoration:none;}

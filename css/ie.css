@@ -1,0 +1,6 @@
+#skipnav li a { filter: alpha(opacity=70);}
+.info form input[type="submit"] { vertical-align: top;}
+#gnb { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1d1e', endColorstr='#000000',GradientType=0 ); /* IE6-9 */}
+.breaking_desc li a p { filter: alpha(opacity=75);}
+#whiteLayer { filter: alpha(opacity=70);}
+.newsletter strong { font-size: 18px;}

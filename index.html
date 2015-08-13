@@ -1,0 +1,393 @@
+<!DOCTYPE html >
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title> wp-magazine-template </title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+        <link style="text/css" rel="stylesheet" href="css/common.css"/>
+        <link style="text/css" rel="stylesheet" href="css/main.css"/>
+        <script src="js/jquery-1.11.3.min.js"></script>
+    <!--[if lt IE 9]>
+		<script src="js/html5shiv.js" type="text/javascript"></script>
+        <link style="text/css" rel="stylesheet" href="css/ie.css"/>
+  <![endif]-->
+        <script src="js/boxcheck.js" type="text/javascript"></script>
+        <script src="js/effect.js"></script>
+    </head>
+    <body>
+        <div id="skipnav">
+            <ul>
+                <li><a href="#navi">주메뉴로 바로가기</a></li>
+                <li><a href="#main">본문으로 바로가기</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="wrap">
+                <header id="header">
+                    <h1 id="logo"><a href="#" title="메인바로가기"><img src="img/logo.jpg" alt="THE NEWS REPORTER 로고이미지입니다."></a></h1>
+                    <div class="info">
+                        <ul class="sns">
+                            <li><a href="#" title="THE NEWS REPORTER 트위터 새창으로 바로가기"><img src="img/sns1.png" alt="트위터 이미지입니다."></a></li><!--
+                            --><li><a href="#" title="THE NEWS REPORTER 페이스북 새창으로 바로가기"><img src="img/sns2.png" alt="페이스북 이미지입니다."></a></li><!--
+                            --><li><a href="#" title="THE NEWS REPORTER RSS 새창으로 바로가기"><img src="img/sns3.png" alt="RSS 이미지입니다."></a></li><!--
+                            --><li><a href="#" title="THE NEWS REPORTER 페이스북 좋아요 클릭하기"><img src="img/sns4.jpg" alt="페이스북 좋아요 클릭이미지입니다."></a></li><!--
+                            --><li><a href="#" title="THE NEWS REPORTER 구글로 공유하기"><img src="img/sns5.png" alt="구글공유이미지입니다."></a></li>
+                        </ul>
+                        <ul class="infor_menu">
+                            <li><a href="#">Home</a></li><!--
+                            --><li><a href="#">About Us</a></li><!--
+                            --><li><a href="#">Contact Us</a></li><!--
+                            --><li><a href="#">Subscribe</a></li><!--
+                            --><li><a href="#">Login</a></li>
+                        </ul>
+                        <form action="#" method="get" id="search_form" onsubmit="return searchCheck();">
+                            <fieldset>
+                                <legend>검색입력창</legend>
+                                <label for="search">검색창</label>
+                                <input type="text" id="search" name="search">
+                                <input type="submit" id="search_btn" value="검색"> 
+                            </fieldset>
+                        </form>
+                    </div>
+                    <nav>
+                        <h2>THE NEWS REPORTER 주메뉴입니다.</h2>
+                        <ul id="gnb">
+                            <li><a href="#">world news</a></li><!--
+                            --><li><a href="#">sports</a></li><!--
+                            --><li><a href="#">tech</a></li><!--
+                            --><li><a href="#">business</a></li><!--
+                            --><li><a href="#">Movies</a></li><!--
+                            --><li><a href="#">entertainment</a></li><!--
+                            --><li><a href="#">culture</a></li><!--
+                            --><li><a href="#">Books</a></li><!--
+                            --><li><a href="#">classifieds</a></li><!--
+                            --><li><a href="#">blogs</a></li>
+                        </ul>
+                    </nav>
+                </header> <!-- header END -->
+                <section id="main">
+                    <h2>THE NEWS REPORTER 본문입니다.</h2>
+                    <section class="breaking_news">
+                        <h3>THE NEWS REPORTER 본문1_breaking_news</h3>
+                        <ul class="breaking_title">
+                            <li>
+                                <a href="#news_tab1" title="breaking news1 내용 크게보기">
+                                    <img src="img/breaking_news1.jpg" alt="breaking news1이미지입니다.">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#news_tab2" title="breaking news2 내용 크게보기">
+                                    <img src="img/breaking_news2.jpg" alt="breaking news2이미지입니다.">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#news_tab3" title="breaking news3 내용 크게보기">
+                                    <img src="img/breaking_news3.jpg" alt="breaking news3이미지입니다.">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#news_tab4" title="breaking news4 내용 크게보기">
+                                    <img src="img/breaking_news4.jpg" alt="breaking news4이미지입니다.">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="breaking_desc">
+                            <li id="news_tab1">
+                                <a href="#">
+                                    <img src="img/breaking_news1_b.jpg" alt="breaking news1 큰이미지입니다.">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.
+                                    </p>
+                                </a>
+                            </li>
+                            <li id="news_tab2">
+                                <a href="#">
+                                    <img src="img/breaking_news2_b.jpg" alt="breaking news2 큰이미지입니다.">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.
+                                    </p>
+                                </a>
+                            </li>
+                            <li id="news_tab3">
+                                <a href="#">
+                                    <img src="img/breaking_news3_b.jpg" alt="breaking news3 큰이미지입니다.">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.
+                                    </p>
+                                </a>
+                            </li>
+                            <li id="news_tab4">
+                                <a href="#">
+                                    <img src="img/breaking_news4_b.jpg" alt="breaking news4 큰이미지입니다.">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                        <p>breaking news</p>
+                    </section>
+                    <section class="videos">
+                        <h3>THE NEWS REPORTER 본문2_videos</h3>
+                        <ul>
+                            <li><a href="#" title="영상 새창으로 열기"><img src="img/videos.jpg" alt="Lorem ipsum dolor sit amet conse ctetur adipiscing elit 영상메인이미지입니다."><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span></a></li>
+                            <li><a href="#" title="영상 새창으로 열기"><img src="img/videos.jpg" alt="Lorem ipsum dolor sit amet conse ctetur adipiscing elit 영상메인이미지입니다."><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span></a></li>
+                            <li><a href="#" title="영상 새창으로 열기"><img src="img/videos.jpg" alt="Lorem ipsum dolor sit amet conse ctetur adipiscing elit 영상메인이미지입니다."><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span></a></li>
+                            <li><a href="#" title="영상 새창으로 열기"><img src="img/videos.jpg" alt="Lorem ipsum dolor sit amet conse ctetur adipiscing elit 영상메인이미지입니다."><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span></a></li>
+                        </ul>
+                        <p  class="videos_plus"><a href="#" title="더보기" class="more_btn">MORE +</a></p>
+                    </section>
+                    <div class="content cwrap1">
+                        <section class="world_news">
+                            <h3>THE NEWS REPORTER 본문3_World_news</h3>
+                            <p class="cont_title">from &nbsp; around &nbsp; the &nbsp; world<span><a href="#" title="더보기" class="more_btn">MORE +</a></span></p>
+                            <ul>
+                                <li>
+                                    <img src="img/world_news1.jpg" alt="Lorem ipsum dolor sit amet, consectetur 
+Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis. 이미지입니다.">
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet, consectetur</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </li>
+                                <li>
+                                    <img src="img/world_news2.jpg" alt="Lorem ipsum dolor sit amet, consectetur 
+Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis. 이미지입니다.">
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet, consectetur</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </li>
+                                <li>
+                                    <img src="img/world_news3.jpg" alt="Lorem ipsum dolor sit amet, consectetur 
+Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis. 이미지입니다.">
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet, consectetur</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="latest_articles">
+                            <h3>THE NEWS REPORTER 본문4_latest_articles</h3>
+                            <p class="cont_title">latest &nbsp; articles<span><a href="#" title="더보기" class="more_btn">MORE +</a></span></p>
+                            <ul>
+                                <li>
+                                    <img src="img/latest_articles1.jpg" alt="Lorem ipsum dolor sit amet, consectetur 
+Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis. 이미지입니다.">
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet, consectetur</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </li>
+                                <li>
+                                    <img src="img/latest_articles2.jpg" alt="Lorem ipsum dolor sit amet, consectetur 
+Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis. 이미지입니다.">
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet, consectetur</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </li>
+                                <li>
+                                    <img src="img/latest_articles3.jpg" alt="Lorem ipsum dolor sit amet, consectetur 
+Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis. 이미지입니다.">
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet, consectetur</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="gallery">
+                            <h3>THE NEWS REPORTER 본문5_gallery</h3>
+                            <p class="cont_title">gallery<span><a href="#" title="더보기" class="more_btn">MORE +</a></span></p>
+                            <ul>
+                                <li>
+                                    <a href="img/gallery1.jpg" class="modal_galley">
+                                        <img src="img/gallery1.jpg" alt="Gallery이미지1입니다.">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="img/gallery2.jpg" class="modal_galley">
+                                        <img src="img/gallery2.jpg" alt="Gallery이미지2입니다.">
+                                    </a>
+                                </li>
+                                <li class="margin_none">
+                                    <a href="img/gallery3.jpg" class="modal_galley">
+                                        <img src="img/gallery3.jpg" alt="Gallery이미지3입니다.">
+                                    </a>
+                                </li>
+                                <li class="bottom_margin">
+                                    <a href="img/gallery4.jpg" class="modal_galley">
+                                        <img src="img/gallery4.jpg" alt="Gallery이미지4입니다.">
+                                    </a>
+                                </li>
+                                <li class="bottom_margin">
+                                    <a href="img/gallery5.jpg" class="modal_galley">
+                                        <img src="img/gallery5.jpg" alt="Gallery이미지5입니다.">
+                                    </a>
+                                </li>
+                                <li class="margin_none bottom_margin">
+                                    <a href="img/gallery6.jpg" class="modal_galley">
+                                        <img src="img/gallery6.jpg" alt="Gallery이미지6입니다.">
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="tech_news">
+                            <h3>THE NEWS REPORTER 본문6_tech_news</h3>
+                            <p class="cont_title">tech &nbsp; news<span><a href="#" title="더보기" class="more_btn">MORE +</a></span></p>
+                            <ul>
+                                <li class="border_none">
+                                    <a href="#">
+                                        <p><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...</p>
+<p>by <span class="colorline">John Doe</span>29 comments</p>
+                                    </a>
+                                </li>
+                                <li class="border_none margin_none">
+                                    <a href="#">
+                                        <p><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...</p>
+<p>by <span class="colorline">John Doe</span>29 comments</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...</p>
+<p>by <span class="colorline">John Doe</span>29 comments</p>
+                                    </a>
+                                </li>
+                                <li class="margin_none">
+                                    <a href="#">
+                                        <p><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...</p>
+<p>by <span class="colorline">John Doe</span>29 comments</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </section> 
+                    </div>
+                    <div class="content cwrap2">
+                        <section class="desk">
+                            <h3>THE NEWS REPORTER 본문7_desk</h3>
+                            <p class="cont_title">from &nbsp; the &nbsp; desk</p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.
+                                    </p>
+                                    <p class="read">
+                                        <a href="#">Read More</a><span>3 hours ago</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.
+                                    </p>
+                                    <p class="read">
+                                        <a href="#">Read More</a><span>3 hours ago</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.
+                                    </p>
+                                    <p class="read">
+                                        <a href="#">Read More</a><span>3 hours ago</span>
+                                    </p>
+                                </li>
+                            </ul>
+                            <a href="#" title="더보기" class="more_btn">MORE +</a>
+                        </section>
+                        <section class="editorial">
+                            <h3>THE NEWS REPORTER 본문8_editorial</h3>
+                            <p class="cont_title">editorial</p>
+                            <ul>
+                                <li><a href="#"><img src="img/editorial1.jpg" alt="Lorem ipsum dolor sit amet con se cte tur adipiscing elit 관련 이미지입니다."><p>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</p></a></li>
+                                <li><a href="#"><img src="img/editorial2.jpg" alt="Lorem ipsum dolor sit amet con se cte tur adipiscing elit 관련 이미지입니다."><p>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</p></a></li>
+                                <li><a href="#"><img src="img/editorial3.jpg" alt="Lorem ipsum dolor sit amet con se cte tur adipiscing elit 관련 이미지입니다."><p>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</p></a></li>
+                                <li><a href="#"><img src="img/editorial2.jpg" alt="Lorem ipsum dolor sit amet con se cte tur adipiscing elit 관련 이미지입니다."><p>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</p></a></li>
+                            </ul>
+                        </section> 
+                    </div>
+                    <div class="content cwrap3">
+                        <section class="ad_film">
+                            <h3>THE NEWS REPORTER 본문9_ad_film</h3>
+                            <a href="#" title="Alberta Film 광고 새창으로 열기">Alberta Film 광고</a>
+                        </section>
+                        <section class="newsletter">
+                            <h3>THE NEWS REPORTER 본문10_newsletter</h3>
+                            <strong>sign up for newsletter</strong>
+                            <span>Sign up to receive our free newsletters!</span>
+                            <form action="#" method="post" onsubmit="return newsletterCheck();">
+                                <fieldset>
+                                    <legend>NEWSLETTER 가입창</legend>
+                                    <p>
+                                        <label for="name">이름입력</label>
+                                        <input type="text" id="name" name="name" placeholder="Name">
+                                    </p>
+                                    <p>
+                                        <label for="email">이메일입력</label>
+                                        <input type="text" id="email" name="email" placeholder="Email Address">
+                                    </p>
+                                    <p><input type="submit" id="sign_up" value="SUBMIT"></p>
+                                </fieldset>
+                            </form>
+                            <span class="colortitle">We do not spam. We value your privacy!</span>
+                        </section> 
+                        <section class="popular">
+                            <h3>THE NEWS REPORTER 본문11_popular</h3>
+                            <p class="cont_title colortitle">popular<span>most read</span></p>
+                            <ul>
+                                <li>
+                                    <span>Sept 24th 2011</span>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit<a href="#">Read More</a></p>
+                                </li>
+                                <li>
+                                    <span>Sept 24th 2011</span>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit<a href="#">Read More</a></p>
+                                </li>
+                                <li>
+                                    <span>Sept 24th 2011</span>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit<a href="#">Read More</a></p>
+                                </li>
+                                <li>
+                                    <span>Sept 24th 2011</span>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit<a href="#">Read More</a></p>
+                                </li>
+                                <li>
+                                    <span>Sept 24th 2011</span>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit<a href="#">Read More</a></p>
+                                </li>
+                            </ul>
+                            <a href="#" title="더보기" class="more_btn">MORE +</a>
+                        </section>
+                        <section class="subscribe_now">
+                            <h3>THE NEWS REPORTER 본문12_subscribe_now</h3>
+                        <a href="#" title="지금 바로 매거진 구독을 신청하시면 50%할인된 금액으로 받아보실수 있습니다.">매거진 구독하기</a>
+                        </section> 
+                    </div>
+                    <section class="ad">
+                        <h3>THE NEWS REPORTER 본문13_AD</h3>
+                        <a href="#" title="Firehost 광고 새창으로 열기">Firehost 광고</a>
+                    </section>
+                </section>
+                <footer id="footer">
+                    <ul id="footer_menu">
+                        <li><a href="#">World News</a></li><!--
+                        --><li><a href="#">Sports</a></li><!--
+                        --><li><a href="#">Techology</a></li><!--
+                        --><li><a href="#">Business</a></li><!--
+                        --><li><a href="#">Movies</a></li><!--
+                        --><li><a href="#">Entertainment</a></li><!--
+                        --><li><a href="#">Culture</a></li><!--
+                        --><li><a href="#">Books</a></li><!--
+                        --><li><a href="#">Classifieds</a></li><!--
+                        --><li><a href="#">Blogs</a></li>
+                    </ul>
+                    <div class="copy">
+                        Copyright &copy; 2011 The News Reporter Inc. All rights reserved. Theme designed by GraphicsFuel.com<span>Reproduction in whole or in part in any form or medium without express written permission of The News Reporter Inc. is prohibited. The trade marks and img used in the design are the copyright of their respective owners. They are used only for display purpose.</span>
+                    </div>
+                </footer> <!-- footer END -->
+            </div>
+        </div>
+    </body>
+</html>

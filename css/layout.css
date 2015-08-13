@@ -1,0 +1,27 @@
+#skipnav li a { display: block; width: 100%; padding: 10px 0; background-color: #cf0000; color: #ffffff; font-weight: bold; text-align: center; opacity: 0.7; position: absolute; left: 0; top: -100px; z-index: 100;}
+#skipnav li a:focus { top: 0;}
+#wrapper { width: 100%; background: #121212 url(../img/bg.jpg) no-repeat center top; padding-bottom: 28px; padding-top: 46px;}
+#wrap { width: 940px; height: 1934px; margin: 0px auto; background-color: #ffffff; padding: 17px 20px 0px 20px;}
+/************************HEADER************************/
+#header { position: relative; width: 940px; height: 122px;}
+/************************MAIN************************/
+#main { padding-top: 5px; width: 940px; min-height: 1616px;}
+.breaking_news { float: left; width: 670px; height: 315px; margin-right: 20px;  background-color: #202021;}
+.videos { float: left; width: 250px; height: 315px; background-color: #e4e4e4;}
+.content { float: left; height: 1131px; margin-top: 20px; margin-bottom: 42px;}
+.content.cwrap1 { width: 457px; margin-right: 23px;}
+.world_news { width: 457px; height: 283px; margin-bottom: 21px;}
+.latest_articles { width: 457px; height: 283px; margin-bottom: 19px;}
+.gallery { width: 457px; height: 259px; margin-bottom: 19px;}
+.tech_news { width: 457px; height: 247px;}
+.content.cwrap2 { width: 190px; margin-right: 20px;}
+.desk { width: 190px; height: 453px; margin-bottom: 19px;}
+.editorial { width: 190px; height: 644px;}
+.content.cwrap3 { width: 250px;}
+.ad_film { width: 250px; height: 229px; margin-bottom: 17px;}
+.newsletter { width: 217px; height: 175px; padding: 15px 16px 22px 17px; margin-bottom: 14px; background-color: #e4e4e4;}
+.popular { width: 250px; height: 453px; margin-bottom: 39px;}
+.subscribe_now { width: 250px; height: 133px;}
+.ad { clear: both; width: 728px; height: 90px; padding: 26px 105px 27px 107px; border-bottom: 1px dotted #202021; border-top: 1px dotted #202021;}
+/************************FOOTER************************/
+#footer { width: 854px; height: 110px; text-align: center; padding: 20px 43px;}
