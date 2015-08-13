@@ -50,7 +50,7 @@ a.more_btn { display: block; width: 61px; height: 18px; color: #ffffff; backgrou
 .breaking_title li a img { width: 100%; height: 100%;}
 .breaking_desc { float: left; width: 523px; height: 283px; margin-top:13px; margin-left: 11px; border: 3px solid #000000; overflow: hidden; position: relative;}
 .breaking_desc li a img { position: absolute; left: -4%; top: -20%;}
-.breaking_desc li a p { width: 381px; height: 42px; position: absolute; left: 0px; bottom: 0px; background-color: #000000; opacity: 0.75; color: #ffffff; padding-left: 142px;}
+.breaking_desc li a p { width: 381px; height: 42px; position: absolute; left: 0px; bottom: 0px; font-size: 15px; background-color: #000000; opacity: 0.75; color: #ffffff; padding-left: 142px;}
 .breaking_news { position: relative;}
 .breaking_news > p { position: absolute; left: 0px; bottom: 0px; width: 108px; height: 26px; background-color: #cf0000; text-align: center; line-height: 26px; color: #ffffff; font-weight: bold; font-size: 9px; text-transform: uppercase;}
 .videos ul { width: 208px; height: 297px; margin: 0px 21px;}
